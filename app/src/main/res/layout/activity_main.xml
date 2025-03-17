@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_open_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Dialog" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service" />
+
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service" />
+
+    <Button
+        android:id="@+id/btn_get_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Timestamp" />
+
+    <Button
+        android:id="@+id/btn_next_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Activity" />
+
+</LinearLayout>
